@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-27T13:42:36 CST" name="Default suite" finished-at="2023-02-27T13:42:52 CST" duration-ms="16377">
+    <groups>
+    </groups>
+    <test started-at="2023-02-27T13:42:36 CST" name="Default test" finished-at="2023-02-27T13:42:52 CST" duration-ms="16377">
+      <class name="WebScrappingTest">
+        <test-method is-config="true" signature="connectMongoDB()[pri:0, instance:WebScrappingTest@4d02f94e]" started-at="2023-02-27T13:42:36 CST" name="connectMongoDB" finished-at="2023-02-27T13:42:36 CST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectMongoDB -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:WebScrappingTest@4d02f94e]" started-at="2023-02-27T13:42:36 CST" name="setUp" finished-at="2023-02-27T13:42:38 CST" duration-ms="2462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="webScrapeTest(java.lang.String)[pri:0, instance:WebScrappingTest@4d02f94e]" started-at="2023-02-27T13:42:38 CST" name="webScrapeTest" data-provider="getData" finished-at="2023-02-27T13:42:42 CST" duration-ms="3842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webScrapeTest -->
+        <test-method signature="webScrapeTest(java.lang.String)[pri:0, instance:WebScrappingTest@4d02f94e]" started-at="2023-02-27T13:42:42 CST" name="webScrapeTest" data-provider="getData" finished-at="2023-02-27T13:42:52 CST" duration-ms="9431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.ebay.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webScrapeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebScrappingTest@4d02f94e]" started-at="2023-02-27T13:42:52 CST" name="tearDown" finished-at="2023-02-27T13:42:52 CST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebScrappingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
